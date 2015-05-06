@@ -4,7 +4,7 @@ build:
     - arjen/hugo-build:
         version: 0.13
         theme: twentyfourteen
-        flags: --disableSitemap=true
+        flags: --theme=twentyfourteen
 deploy:
   steps:
     # Execute the s3sync deploy step, a step provided by wercker
