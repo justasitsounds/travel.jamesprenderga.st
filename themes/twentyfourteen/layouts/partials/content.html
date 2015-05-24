@@ -8,7 +8,7 @@
 		<div class="entry-meta">
 			<span class="cat-links">
                 {{ range .Params.categories }}
-                <a href="{{ $baseurl }}/categories/{{ lower . | urlize }}/index.html" rel="category">{{ . }}</a>
+                <a href="{{ $baseurl }}categories/{{ lower . | urlize }}/index.html" rel="category">{{ . }}</a>
                 {{ end }}
 			</span>
 		</div>
@@ -34,7 +34,7 @@
 	<footer class="entry-meta">
 		<span class="tag-links">		
 			{{ range .Params.tags }}
-                <a href="{{ $baseurl}}/tags/{{ lower . | urlize }}/index.html" rel="tag">{{ . }}</a>
+                <a href="{{ $baseurl}}tags/{{ lower . | urlize }}/index.html" rel="tag">{{ . }}</a>
             {{ end }}
 		</span>
 	</footer>
