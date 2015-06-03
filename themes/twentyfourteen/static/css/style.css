@@ -577,6 +577,24 @@ input[type="submit"]:active {
 	max-width: 100%;
 }
 
+img.portrait-clock{
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  margin: 100px 0px;
+}
+img.portrait-anticlock{
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  margin: 100px 0px;
+}
+
+
 /**
  * Make sure images with WordPress-added height and width attributes are
  * scaled correctly.
